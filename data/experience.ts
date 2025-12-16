@@ -10,37 +10,37 @@ export interface Experience {
 export const experienceData: Experience[] = [
   {
     id: 1,
-    role: "Founder & Full-Stack Developer",
-    company: "InfiniteStudioX",
-    period: "2023 — Present",
+    role: "Founder",
+    company: "InfiniteStudioX · Freelance",
+    period: "May 2025 - Present",
     description:
-      "Building MVPs, Web Apps, and DeFi solutions. Founder of InfiniteStudioX, specializing in Web Development, Web3, DeFi, and App Development. Focused on creating MVPs with exceptional design and functionality.",
+      "Providing services in Web Development, Web3, DeFi, and App Development — specializing in building MVPs with great design and functionality to ensure client satisfaction.",
     type: "experience",
   },
   {
     id: 2,
-    role: "Freelance Web Developer",
-    company: "Self-Employed",
-    period: "2022 — Present",
-    description:
-      "Developed websites for clients in lifestyle, tech, and design industries.",
+    role: "Full Stack Engineer",
+    company: "CrackedDevs.com · Internship",
+    period: "Sep 2024 - Sep 2024",
+    description: "Worked on a crypto full stack project frontend",
     type: "experience",
   },
   {
     id: 3,
-    role: "Web Development Intern",
-    company: "Various Companies",
-    period: "2021 — 2022",
-    description: "Gained experience in front-end and back-end development.",
+    role: "Frontend Developer",
+    company: "ConvoQ AI · Internship",
+    period: "Apr 2024 - Jun 2024",
+    description:
+      "Led frontend initiatives tailored for the startup, creating agile and user-centric interfaces.($100/month)",
     type: "experience",
   },
   {
     id: 4,
-    role: "Open Source Contributor",
-    company: "GitHub",
-    period: "2020 — Present",
+    role: "Cadet",
+    company: "Anglo-Eastern · Full-time",
+    period: "Oct 2021 - Apr 2022",
     description:
-      "Contributed to various open-source projects and learned best practices.",
+      "Joined as a cadet , Left it didn't like the work culture of navy",
     type: "experience",
   },
 ];
