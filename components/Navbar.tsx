@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="w-full max-w-6xl mx-auto px-6 py-8 flex justify-between items-center text-sm font-geist font-light z-50 relative">
       <Link href="/" className="hover:opacity-80 transition-opacity">
         <Image
-          src="/assets/face.png"
+          src="/assets/logo.png"
           alt="Logo"
           width={40}
           height={40}
