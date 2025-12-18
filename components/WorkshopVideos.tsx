@@ -52,7 +52,7 @@ export default function WorkshopVideos() {
               </div>
               
               <div className="flex flex-col gap-2">
-                <h3 className={`text-lg font-inter font-semibold text-white ${theme.title} transition-colors leading-snug`}>
+                <h3 className={`text-lg font-inter font-light text-white ${theme.title} transition-colors leading-snug`}>
                   {video.title}
                 </h3>
                 

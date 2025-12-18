@@ -45,7 +45,7 @@ export default function RecentPosts() {
                 )}
               </div>
               <div className="flex flex-col gap-2">
-                <h3 className={`text-lg font-inter font-semibold text-white ${theme.title} transition-colors leading-snug`}>
+                <h3 className={`text-lg font-inter font-light text-white ${theme.title} transition-colors leading-snug`}>
                   {post.title}
                 </h3>
                 <div className="flex items-center gap-3 text-xs text-neutral-500 font-geist tracking-wide">

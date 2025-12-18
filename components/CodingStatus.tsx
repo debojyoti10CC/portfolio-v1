@@ -37,7 +37,8 @@ export default function CodingStatusDot() {
         // Get today's coding time
         const todayTime = result.data?.grand_total?.text || result.data?.categories?.[0]?.text || "";
         
-        if (result.data?.editors?.length > 0 || result.data?.categories?.length > 0) {
+        // Use the is_currently_coding flag from API (based on last heartbeat within 5 mins)
+        if (result.is_currently_coding) {
           setData({ status: "active", todayTime, editor });
         } else {
           setData({ status: "idle", todayTime, editor });
@@ -48,7 +49,8 @@ export default function CodingStatusDot() {
     };
 
     checkStatus();
-    const interval = setInterval(checkStatus, 2 * 60 * 1000);
+    // Check every 30 seconds for more accurate real-time status
+    const interval = setInterval(checkStatus, 30 * 1000);
     return () => clearInterval(interval);
   }, []);
 

@@ -3,6 +3,7 @@ import ContributionGraph from "@/components/ContributionGraph";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import LifeSection from "@/components/LifeSection";
 import Navbar from "@/components/Navbar";
 import RecentPosts from "@/components/RecentPosts";
 import ToolsMarquee from "@/components/ToolsMarquee";
@@ -50,6 +51,7 @@ export default function Home() {
         <FeaturedProjects />
         <RecentPosts />
         <WorkshopVideos />
+        <LifeSection />
         <Contact />
         <Footer />
       </main>
