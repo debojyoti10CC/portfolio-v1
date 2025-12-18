@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import CodingStatusDot from "./CodingStatus";
+import VisitorCounter from "./VisitorCounter";
 
 export default function Hero() {
   return (
@@ -27,7 +28,7 @@ export default function Hero() {
             Mohammad Harish
           </h1>
           <p className="text-sm font-geist text-neutral-500 uppercase tracking-widest">
-            Builder • Agency Owner • Full Stack Developer
+            Builder • Agency Owner • Full Stack Developer • Teacher
           </p>
         </div>
 
@@ -68,6 +69,11 @@ export default function Hero() {
               Book a Call
             </Link>
           </p>
+        </div>
+
+        {/* Visitor Counter Badge */}
+        <div className="mt-4">
+          <VisitorCounter />
         </div>
       </div>
 
