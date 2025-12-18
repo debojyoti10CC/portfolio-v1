@@ -10,6 +10,7 @@ import {
   FaYoutube
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import VisitorCounter from "./VisitorCounter";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -169,6 +170,11 @@ export default function Contact() {
             Submit
           </button>
         </form>
+      </div>
+
+      {/* Visitor Counter Badge - Centered */}
+      <div className="flex justify-center mt-16">
+        <VisitorCounter />
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import CodingStatusDot from "./CodingStatus";
-import VisitorCounter from "./VisitorCounter";
 
 export default function Hero() {
   return (
@@ -69,11 +68,6 @@ export default function Hero() {
               Book a Call
             </Link>
           </p>
-        </div>
-
-        {/* Visitor Counter Badge */}
-        <div className="mt-4">
-          <VisitorCounter />
         </div>
       </div>
 
