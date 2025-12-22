@@ -48,19 +48,18 @@ export const experienceData: Experience[] = [
 export const educationData: Experience[] = [
   {
     id: 1,
-    role: "Bachelor of Technology in Computer Science",
-    company: "Indian Institute of Information Technology, Design and Manufacturing, Jabalpur",
-    period: "2020 — 2024",
-    description:
-      "I am currently doing my Bachelors in computer Science. I enjoy learning about developement technologies and am currently learning Next.js and TypeScript.",
+    role: "Bachelor's degree, Computer Science",
+    company: "Dr. Virendra Swarup Institute of Computer Studies, Kanpur",
+    period: "Aug 2022 — Jun 2025",
+    description: "Grade: 8.27(till 5th sem)\nActivities and societies: Presentation and public speaking.",
     type: "education",
   },
   {
     id: 2,
-    role: "Higher Secondary Certificate",
-    company: "Kendriya Vidyalaya No.1, AFS, Tambaram, Chennai",
-    period: "2018 — 2020",
-    description: "",
+    role: "Computer Science",
+    company: "St Aloysius High School",
+    period: "Apr 2005 — Apr 2020",
+    description: "Grade: 92\n\nJEE(2020) 69 %\nJEE(2021) 89.67%(Air 89675)",
     type: "education",
   },
 ];

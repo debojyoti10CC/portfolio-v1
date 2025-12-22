@@ -28,7 +28,7 @@ export default function ExperienceItem({ item, index }: ExperienceItemProps) {
         <h4 className="text-xl font-medium text-neutral-200 mb-2">
           {item.role}
         </h4>
-        <p className="text-neutral-400 font-light leading-relaxed">
+        <p className="text-neutral-400 font-light leading-relaxed whitespace-pre-line">
           {item.description}
         </p>
       </div>

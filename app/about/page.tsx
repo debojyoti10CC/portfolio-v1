@@ -69,7 +69,7 @@ export default function AboutPage() {
             <div className="flex items-center gap-4 mb-8">
               <div className="w-16 h-16 rounded-full flex items-center justify-center text-pink-500 font-geist font-medium text-2xl">
                 <Image
-                src="/assets/face.jpg"
+                src="/assets/face.png"
                 alt="Panekka"
                 width={50}
                 height={50}
