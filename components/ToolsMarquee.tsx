@@ -37,11 +37,11 @@ const toolsRow2 = [
 
 export default function ToolsMarquee() {
   return (
-    <section className="mt-32 lg:pl-12 overflow-hidden w-full relative">
+    <section className="mt-32 overflow-hidden w-full relative">
       <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-background to-transparent z-10"></div>
       <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-background to-transparent z-10"></div>
 
-      <h2 className="text-lg font-figtree font-light text-white mb-8 px-1">
+      <h2 className="text-lg font-figtree font-light text-white mb-8 px-1 text-left">
         Technologies & Tools
       </h2>
 
