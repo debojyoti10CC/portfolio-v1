@@ -24,10 +24,10 @@ export default function Hero() {
 
         {/* Name and Title */}
         <div>
-          <h1 className="text-4xl lg:text-7xl font-geist font-normal tracking-tight text-white mb-4">
+          <h1 className="text-4xl lg:text-7xl font-figtree font-normal tracking-tight text-white mb-4">
             Mohammad Harish
           </h1>
-          <p className="text-sm font-geist text-neutral-500 uppercase tracking-widest">
+          <p className="text-sm font-figtree text-neutral-500 uppercase tracking-widest">
             Builder • Agency Owner • Full Stack Developer • Teacher
           </p>
         </div>
@@ -60,22 +60,24 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="flex flex-wrap items-center gap-4">
-            <Link
-              href="https://calendly.com/xharish52/30min"
-              target="_blank"
-              className="group relative inline-block text-pink-400 hover:text-white transition-colors duration-300"
-            >
-              <span className="relative z-10">Book a Call</span>
-              {/* Hover tooltip */}
-              <span className="absolute bottom-full left-0 mb-2 px-2 py-1 text-xs text-neutral-400 bg-neutral-900 border border-neutral-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
-                for clients
-              </span>
-            </Link>
+          <div className="flex flex-col gap-4">
+            <p>
+              <Link
+                href="https://calendly.com/xharish52/30min"
+                target="_blank"
+                className="group relative inline-block text-pink-400 hover:text-white transition-colors underline decoration-neutral-700 underline-offset-4 hover:decoration-pink-400/50"
+              >
+                <span className="relative z-10">Book a Call</span>
+                {/* Micro animation underline effect */}
+                <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-pink-400 group-hover:w-full transition-all duration-300 ease-out"></span>
+              </Link>
+            </p>
             
             {/* Student Badge */}
-            <StudentBadge />
-          </p>
+            <div>
+              <StudentBadge />
+            </div>
+          </div>
         </div>
       </div>
 
